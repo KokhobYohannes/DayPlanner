@@ -7,74 +7,116 @@
     <title>Day Planner</title>
     <link rel="stylesheet" href="./styles.css">
     </link>
+    <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <h1>Welcome to Your Day Planner!</h1>
 </head>
 
 <body>
-    <div class="jumbotron">
+
+    <div>
+        <button type="button" id="clock">Today's Date</button>
+    </div>
+
+    <div class="container">
         <p class="lead">Schedule your day with ease using the day planner below.</p>
         <hr class="my-4">
-        </p>
-    </div>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">9 am</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">10 am</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">09:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">11 am</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">10:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">12 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">11:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">1 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">12:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">2 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">13:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">3 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">14:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">4 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">15:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">5 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">16:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">6 pm</span>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default">
+    <div class="container mt-3">
+        <div class="input-group mb-3">
+            <button class="btn btn-primary" type="button">17:00</button>
+            <input type="text" class="form-control" placeholder="Something clever..">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button">Save</button>
+            </div>
+        </div>
     </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
