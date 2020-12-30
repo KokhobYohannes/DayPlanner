@@ -63,3 +63,9 @@ h1{
     width: 100%;
     margin-top: 0.2em;
 }
+
+.row {
+   width: 63.9rem;
+   height: 2.5rem;
+   align-items: center;
+  }

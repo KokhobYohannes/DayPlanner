@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day Planner</title>
-    <link rel="stylesheet" href="./styles.css"></link>
+    <link rel="stylesheet" href="./styles.css">
+    </link>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </script>
     <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
     <h1>Welcome to Your Day Planner!</h1>
 </head>
@@ -25,96 +27,106 @@
         <hr class="my-4">
     </div>
 
+
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">09:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="09" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="09" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">10:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="10" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="10" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">11:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="11" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="11" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">12:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="12" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="12" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">13:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="13" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="13" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">14:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="14" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="14" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">15:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="15" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="15" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">16:00</button>
-            <input type="text" class="form-control" placeholder="Task...">
+            <input type="text" class="row storage form-control" id="16" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="16" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="container mt-3">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="button">17:00</button>
-            <input type="text" class="form-control" placeholder="Task... ">
+            <input type="text" class="row storage form-control" id="17" placeholder="Task...">
             <div class="input-group-append">
-                <button class="btn btn-success" type="button"><i class="far fa-save"></i></button>
+                <button class="btn btn-success button" data-id="17" type="button"><i class="far fa-save"></i></button>
             </div>
         </div>
     </div>
     </div>
+
     <script src="./script.js"></script>
 </body>
 
