@@ -1,19 +1,28 @@
 # DayPlanner
 # Homeworkfive
 
-Objective: 
+Objective: The
 
 
-Fonts used: 
+Screenshots:
+<img src = "dayplannerscreenshot.png">
 
-Languages used: HTML, CSS, Javascript
 
 Acknowlegements:
 
+1) Tutors:
 
 
+2) Stack Overflow:
 
-Github Homework link: 
+
+3) Google Fonts: 
 
 
-Repository link: 
+4) Bootstrap: 
+
+
+Github Homework link: https://kokhobyohannes.github.io/DayPlanner/ 
+
+
+Repository link: https://github.com/KokhobYohannes/DayPlanner
