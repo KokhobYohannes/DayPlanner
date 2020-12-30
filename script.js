@@ -49,12 +49,6 @@ if (storedInput) {
     text.textContent = storedInput
 }
 
-// console.log(storedInput)
-// console.log(storageInput)
-// storageInput.addEventListener('input', text => {
-//     text.textContent = text.target.value
-// })
-
 text.textContent= 1
 console.log(text.textContent, "1")
 // saves task data when entered in input field
@@ -77,7 +71,7 @@ console.log("button", button)
 button.forEach( i => { 
     i.addEventListener("click", event => saveToLocalStorage(event)); 
 });
-// get user plan data from local stroage betwen 09 ~ 17
+// get user plan/data from local storage between 09 ~ 17
 for(i = 9; i < 18; i++)
 {
     var id = i + "";
