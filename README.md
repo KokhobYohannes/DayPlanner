@@ -27,6 +27,6 @@ Acknowlegements:
 
 6) Moment.js: Used to display the current date.
 
-Github Homework link: https://kokhobyohannes.github.io/DayPlanner/ 
+Deployed link: https://kokhobyohannes.github.io/DayPlanner/ 
 
 Repository link: https://github.com/KokhobYohannes/DayPlanner
